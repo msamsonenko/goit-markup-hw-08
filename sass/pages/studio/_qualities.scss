@@ -10,6 +10,12 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     display: inline-block;
     margin: 15px;
@@ -48,7 +54,7 @@
 }
 
 .qualities__text {
-  @media acreen and (min-width: 1200px){
+  @media acreen and (min-width: 1200px) {
     margin-bottom: 30px;
   }
 }

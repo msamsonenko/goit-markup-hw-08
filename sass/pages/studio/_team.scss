@@ -2,17 +2,21 @@
   background-color: #f5f4fa;
   &__title {
     @extend %title;
-    margin-bottom: 50px;
-    font-size: 36px;
+    margin-bottom: 30px;
+    font-size: 28px;
     line-height: 1.16;
     text-align: center;
+
+    @media screen and (min-width: 1200px){
+      margin-bottom: 50px;
+    font-size: 36px;
+    }
   }
 }
-// /* team section */
+
 
 .team__list {
-  // margin-left: auto;
-  // margin-right: auto;
+  
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;

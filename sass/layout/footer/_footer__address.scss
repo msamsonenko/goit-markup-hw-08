@@ -3,7 +3,9 @@
 //   margin-bottom: 60px;
 // }
 .ft-address__item {
-  text-align: center;
+  @media screen and (max-width: 1199px){
+    text-align: center;
+  }
 }
 .ft-address__item:not(:last-child) {
   margin-bottom: 9px;

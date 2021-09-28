@@ -7,31 +7,40 @@
   text-align: center;
 
   background-color: $hero-footer-bg-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/studio-page/hero/hero-bg-mobile-x1-min.jpg');
 
   @media screen and (min-width: 768px) {
-    background-image: url('../images/studio-page/hero/hero-bg-tablet-x1-min.jpg');
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url('../images/studio-page/hero/hero-bg-tablet-x1-min.jpg');
   }
   @media screen and (min-width: 1200px) {
-    background-image: url('../images/studio-page/hero/hero-bg-desktop-x1-min.jpg');
+    max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url('../images/studio-page/hero/hero-bg-desktop-x1-min.jpg');
   }
-
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url('../images/studio-page/hero/hero-bg-mobile-x2-min.jpg');
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url('../images/studio-page/hero/hero-bg-mobile-x2-min.jpg');
 
     @media screen and (min-width: 768px) {
-      background-image: url('../images/studio-page/hero/hero-bg-tablet-x2-min.jpg');
+      background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+       url('../images/studio-page/hero/hero-bg-tablet-x2-min.jpg');
     }
     @media screen and (min-width: 1200px) {
-      background-image: url('../images/studio-page/hero/hero-bg-desktop-x2-min.jpg');
+      background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+       url('../images/studio-page/hero/hero-bg-desktop-x2-min.jpg');
     }
   }
 }

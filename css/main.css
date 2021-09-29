@@ -759,13 +759,14 @@ img {
           align-items: center;
 }
 
-.footer__item:not(:last-child) {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .footer__item:not(:last-child) {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .footer__item {
-    margin-bottom: 0;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
